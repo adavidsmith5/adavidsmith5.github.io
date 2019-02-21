@@ -2,6 +2,7 @@
 
 body {
     font-family: Arial;
+    position: relative;
 }
 
 /*
@@ -76,15 +77,15 @@ a {
     SETTINGS FOR THE DIFFERENT SECTIONS
 */
 
-#skills, #contact {
+#skills, #contact, #about {
     background-color: white;
-    padding: 40px;
+    padding: 50px;
     text-align: center;
 }
 
 #projects {
     background-color: #E5E5E5;
-    padding: 20px 0 68px 0;
+    padding: 50px 0 68px 0;
 }
 
 .section-header {
