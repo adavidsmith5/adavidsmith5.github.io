@@ -13,7 +13,6 @@
     <title>Tony Smith</title>
 </head>
   <body>
-      <!--Data spy needs to be adjusted, probably with JS. Text on Jumbotron may need editing-->
         <div class="jumbotron">
             <nav class="navbar fixed-top navbar-expand-sm">
                 <p class="navbar-brand py-0">Tony Smith</p>
@@ -36,7 +35,6 @@
             </div>
         </div>
 
-            <!--This section may need to be changed to include a picture or some other feature-->
 
         <section id="about" class="anchor">
             <div class="container">
@@ -103,62 +101,86 @@
                 <div class="projects-cards">
                     <h1 class="section-header">Projects</h1>
                     <div class="card-deck">
+                        <div class="row">
                             <div class="card">
                                 <div class="text-center"><img src="./img/database_schematic.PNG" class="card-img-top" alt="Database Schematic"></div>
                                 <div class="card-body">
                                     <h5 class="card-title">Library Database Management System</h5>
-                                    <p class="card-text">For this project I used SQL Server to create a 
-                                    system to track books, branches, and loaners. </p>
+                                    <p class="card-text">
+                                        For this project I used SQL Server to create a
+                                        system to track books, branches, and loaners.
+                                        I also created stored procedures to query the
+                                        database and return desired information.
+                                    </p>
                                 </div>
                             </div>
                             <div class="card">
                                 <img src="./img/CustomerForm.png" class="card-img-top" alt="Customer Form">
                                 <div class="card-body">
                                     <h5 class="card-title">Car Insurance App</h5>
-                                    <p class="card-text">This project was done using C#. A user is asked to enter 
-                                    information into a form to receive a car quote. The quote, along with the user's information
-                                    is stored in a SQL Server Table.</p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Python Live Project</h5>
-                                    <p class="card-text">For four weeks of The Tech Academy, I worked on a team project developing personal 
-                                    and travel applications using Python and the Django framework. This was a great opportunity to get a 
-                                    real-world experience on a project with clear goals that needed to be met, and a limited amount of time 
-                                    in which to meet them. I learned what it is like to jump into the middle of a project and having to deal 
-                                    with bugs and utilizing or rewriting a previous programmer's code. I worked on stories involving back-end as 
-                                    well as front-end and gained vital experience working as part of a team.</p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">C# Live Project</h5>
                                     <p class="card-text">
-                                        In the final 4 weeks of The Tech Academy Software Developer Bootcamp
-                                        I participated in two sprints using C# and the .NET framework. The first project was a Construction
-                                        Management portal for a construction company to keep track of jobs, jobsites, and employees. The second
-                                        project was a more general Employee Management application. In the first sprint, I learned what it was like
-                                        to join a project that was near completion. This involved making sense of what was already there and utilizing
-                                        it in code of my own to make it work. It was more focused on fine tuning aspects of the site and meeting the
-                                        client's needs. For the second sprint, I was part of the beginning of the project and was involved in
-                                        laying some of the groundwork for the project. We utilized MVC to create the application and I was
-                                        involved in creating some of the models, adding Google maps to a view, and adding an API to a controller
-                                        to validate user input. Through these projects I learned much about MVC and how he three parts work together.
-                                        These were great experiences to see what it is like to work on a project in the real-world and have to work
-                                        with requirements from the client and having deadlines to meet. I have learned many valuable skills for future
-                                        projects.
+                                        This project was done using C#. A user is asked to enter
+                                        information into a form to receive a car quote. The quote, along with the user's information
+                                        is stored in a SQL Server Table.
                                     </p>
                                 </div>
                             </div>
+                            <div class="card">
+                                <img src="./img/entertainment_image.jpg" class="card-img-top" alt="Entertainment">
+                                <div class="card-body">
+                                    <h5 class="card-title">Entertainment Datascrape Project</h5>
+                                    <p class="card-text">
+                                        This project was part of my internship with Prosper IT Consulting. It was a two week sprint
+                                        creating an entertainment web application for the user, during which I was tasked with scraping 
+                                        IMDb for the top five movies and organizing text messages for the user.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="card">
+                                <img src="./img/travel.jpg" class="card-img-top" alt="Travel">
+                                <div class="card-body">
+                                    <h5 class="card-title">Travel Datascrape Project</h5>
+                                    <p class="card-text">
+                                        During this two week sprint, I focused on the front-end of a web application for users
+                                        who were looking to travel. I created my own Django filters to modify the display of 
+                                        flight information, such as the date-time, price, and airline names. I also edited the to-do
+                                        list page to make it more user friendly and readable.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./img/construction.jpg" class="card-img-top" alt="Construction">
+                                <div class="card-body">
+                                    <h5 class="card-title">Construction Management Portal Project</h5>
+                                    <p class="card-text">
+                                        For this project, I was focused on fine-tuning the already existing webpage to meet the user's
+                                        needs. One aspect of that was creating an alert to let the user know when their work day started
+                                        at a different time than normal. It was a great experience in jumping into a project that was 
+                                        nearing completion and having to figure things out and how they worked within existing code.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./img/employees.jpg" class="card-img-top" alt="Employees">
+                                <div class="card-body">
+                                    <h5 class="card-title">Employee Management Portal Project</h5>
+                                    <p class="card-text">
+                                        On my last two week sprint with Prosper IT Consulting we were working on an employee management portal.
+                                        This was similar to the construction portal, but was just getting started. I helped set up the 
+                                        database models and migrations to begin. I then worked with the Google maps API to show where the 
+                                        job sites are. Finally I worked with a zipcode API to verify the jobsite information when it was being
+                                        created in the system.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
         </section>
 
-            <!--Photo will need updated once I have a more professional shot. More specific ways of contact
-                will be added in when necessary.-->
+
 
         <section id="contact">
             <div class="container">
