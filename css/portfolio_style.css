@@ -60,6 +60,10 @@ a {
     color: white;
 }
 
+.navbar-collapse.in {
+    display: block !important;
+}
+
 /*
     SETTINGS FOR TEXT OVERLAYING JUMBOTRON
 */
