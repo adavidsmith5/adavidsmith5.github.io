@@ -19,9 +19,6 @@ body {
 
 /*
     SETTINGS FOR THE NAVBAR BRAND AND LINKS
-
-    !!STILL NEED TO FIGURE OUT HOW TO GET LINKS/NAVBAR NOT TO COVER SECTION HEADINGS WHEN USING THE LINK 
-    TO GET TO THE SECTION!!(PROBABLY JAVASCRIPT)
 */
 
 .navbar {
@@ -129,10 +126,36 @@ a {
 }
 
 .box img {
-    width: 150px;
-    height: 150px;
+    width: 75px;
+    height: 75px;
     border-radius: 30%;
+    margin-bottom:13px;
 }
+
+.skill-header {
+    color: white;
+    font-size:18px;
+    font-weight:700;
+    background-color: #328CC1;
+    padding: 2px;
+}
+
+@media (min-width: 768px){
+    #python:after, #csharp:after, #html:after, #javascript:after {
+        content: '';
+        height: 95%;
+        width: 1px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: rgb(00,58,85);
+    }
+
+    .row {
+        padding-bottom: 20px;
+    }
+}
+
 
 /*
     SETTINGS FOR PROJECTS SECTION
@@ -149,8 +172,8 @@ a {
     settings
 */
 .card-img-top {
-    width: 100px;
-    height: 100px;
+    width: auto;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -185,8 +208,10 @@ a {
 }
 
 ul {
-	list-style-type:none;
     padding: 0px;
+    list-style-position: inside;
+    display: inline-block;
+    text-align: left;
 }
 
 .links {
